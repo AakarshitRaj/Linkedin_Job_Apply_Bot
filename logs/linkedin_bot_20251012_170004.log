@@ -1,0 +1,98 @@
+2025-10-12 17:00:04 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_170004.log
+2025-10-12 17:00:04 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:00:04 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 17:00:04 - LinkedInBot - INFO - Session started at: 2025-10-12 17:00:04
+2025-10-12 17:00:04 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:00:04 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 17:00:04 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 17:00:06 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 17:00:07 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 17:00:08 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 17:00:09 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 17:00:09 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 17:00:14 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 17:00:14 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 17:00:14 - LinkedInBot.JobSearch - INFO - Searching for: Software Engineer
+2025-10-12 17:00:14 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&f_AL=true
+2025-10-12 17:01:10 - LinkedInBot.JobSearch - DEBUG - Found job list with selector: .scaffold-layout__list
+2025-10-12 17:01:13 - LinkedInBot.JobSearch - DEBUG - Found 25 jobs with selector: li.scaffold-layout__list-item
+2025-10-12 17:01:13 - LinkedInBot.JobSearch - DEBUG - Collected 20 jobs so far...
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - INFO - Successfully collected 20 job cards
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - INFO - Found 20 jobs for 'Software Engineer'
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4300827638
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4311214975
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4312654675
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4311630403
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4309223132
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4306347803
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4310344288
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4257938946
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4310280560
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4309237210
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4313699355
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4118095186
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4310700182
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4312818116
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4310833877
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4311897142
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 3659334942
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4294044091
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4290780521
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - DEBUG - Added job with ID: 4302226686
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - INFO - Deduplication: 20 -> 20 unique jobs
+2025-10-12 17:01:15 - LinkedInBot.JobSearch - INFO - Total unique jobs found: 20
+2025-10-12 17:01:15 - LinkedInBot - INFO - Found 20 job listings to process
+2025-10-12 17:01:15 - LinkedInBot - INFO - 
+[1/20] Processing job listing...
+2025-10-12 17:01:19 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-12 17:01:20 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-12 17:01:23 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-12 17:01:26 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:01:26 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:01:26 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-12 17:01:28 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-12 17:01:31 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:01:31 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:01:31 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-12 17:01:34 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:01:34 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:01:34 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-12 17:01:37 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:01:37 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:01:37 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-12 17:01:40 - LinkedInBot - WARNING - Could not find next/submit button, discarding application
+2025-10-12 17:01:40 - LinkedInBot - WARNING - ✗ Could not apply to this job
+2025-10-12 17:01:41 - LinkedInBot - INFO - 
+[2/20] Processing job listing...
+2025-10-12 17:01:41 - LinkedInBot - ERROR - Browser crashed. Stopping automation. Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff79161c145]
+	(No symbol) [0x0x7ff79164177a]
+	(No symbol) [0x0x7ff7916b8b06]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:01:41 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:01:41 - LinkedInBot - INFO - Automation completed!
+2025-10-12 17:01:41 - LinkedInBot - INFO - Total jobs processed: 20
+2025-10-12 17:01:41 - LinkedInBot - INFO - Successfully applied: 0
+2025-10-12 17:01:41 - LinkedInBot - INFO - Session ended at: 2025-10-12 17:01:41
+2025-10-12 17:01:41 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:01:43 - LinkedInBot - INFO - Browser closed successfully

@@ -1,0 +1,85 @@
+2025-10-12 17:19:24 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_171924.log
+2025-10-12 17:19:24 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:19:24 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 17:19:24 - LinkedInBot - INFO - Session started at: 2025-10-12 17:19:24
+2025-10-12 17:19:24 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:19:24 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 17:19:24 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 17:19:25 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 17:19:27 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 17:19:28 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 17:19:28 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 17:19:29 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 17:19:35 - LinkedInBot.Auth - ERROR - Login failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:19:37 - LinkedInBot - ERROR - Fatal error occurred: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 32, in main
+    driver = auth.login()
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\modules\linkedin_auth.py", line 87, in login
+    if "feed" in driver.current_url or "mynetwork" in driver.current_url:
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 587, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+

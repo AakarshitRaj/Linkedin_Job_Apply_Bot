@@ -1,0 +1,198 @@
+2025-10-26 02:04:44 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251026_020444.log
+2025-10-26 02:04:44 - LinkedInBot - INFO - ================================================================================
+2025-10-26 02:04:44 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-26 02:04:44 - LinkedInBot - INFO - Session started at: 2025-10-26 02:04:44
+2025-10-26 02:04:44 - LinkedInBot - INFO - ================================================================================
+2025-10-26 02:04:44 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-26 02:04:44 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-26 02:04:50 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-26 02:04:54 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-26 02:04:54 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-26 02:04:55 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-26 02:05:03 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-26 02:05:08 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-26 02:05:08 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-26 02:05:08 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-26 02:05:08 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=Bengaluru&f_AL=true
+2025-10-26 02:06:07 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-26 02:06:11 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-26 02:06:11 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-26 02:06:14 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-26 02:06:16 - LinkedInBot - DEBUG - Filled 'phone' with '7277889991'
+2025-10-26 02:06:16 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-26 02:06:20 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-26 02:06:20 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-26 02:06:24 - LinkedInBot - DEBUG - Closed success modal
+2025-10-26 02:06:24 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 1
+2025-10-26 02:06:25 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-26 02:06:29 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-26 02:06:30 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-26 02:06:33 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-26 02:06:36 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-26 02:06:36 - LinkedInBot - DEBUG - Moved to next step
+2025-10-26 02:06:36 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-26 02:06:37 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-26 02:06:41 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-26 02:06:41 - LinkedInBot - DEBUG - Moved to next step
+2025-10-26 02:06:41 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-26 02:06:44 - LinkedInBot - DEBUG - Error with radio group: Message: element click intercepted: Element <input data-test-text-selectable-option__input="Yes" id="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140874,multipleChoice)-0" class="fb-form-element__checkbox" name="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140874,multipleChoice)" aria-required="true" type="radio" value="Yes"> is not clickable at point (298, 155). Other element would receive the click: <label data-test-text-selectable-option__label="Yes" for="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140874,multipleChoice)-0" class="t-14">...</label>
+  (Session info: chrome=141.0.7390.109)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72fb1e8e5+80021]
+	GetHandleVerifier [0x0x7ff72fb1e940+80112]
+	(No symbol) [0x0x7ff72f8a060f]
+	(No symbol) [0x0x7ff72f900a39]
+	(No symbol) [0x0x7ff72f8fe3be]
+	(No symbol) [0x0x7ff72f8fb2e1]
+	(No symbol) [0x0x7ff72f8fa1a0]
+	(No symbol) [0x0x7ff72f8eb7c8]
+	(No symbol) [0x0x7ff72f92122a]
+	(No symbol) [0x0x7ff72f8eb056]
+	(No symbol) [0x0x7ff72f921440]
+	(No symbol) [0x0x7ff72f94968a]
+	(No symbol) [0x0x7ff72f921003]
+	(No symbol) [0x0x7ff72f8e95d1]
+	(No symbol) [0x0x7ff72f8ea3f3]
+	GetHandleVerifier [0x0x7ff72fdddc7d+2960429]
+	GetHandleVerifier [0x0x7ff72fdd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff72fdf8977+3070247]
+	GetHandleVerifier [0x0x7ff72fb383ce+185214]
+	GetHandleVerifier [0x0x7ff72fb3fe1f+216527]
+	GetHandleVerifier [0x0x7ff72fb27b24+117460]
+	GetHandleVerifier [0x0x7ff72fb27cdf+117903]
+	GetHandleVerifier [0x0x7ff72fb0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe2f11e8d7+23]
+	RtlUserThreadStart [0x0x7ffe3032c53c+44]
+
+2025-10-26 02:06:45 - LinkedInBot - DEBUG - Error with radio group: Message: element click intercepted: Element <input data-test-text-selectable-option__input="Yes" id="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140882,multipleChoice)-0" class="fb-form-element__checkbox" name="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140882,multipleChoice)" aria-required="true" type="radio" value="Yes"> is not clickable at point (298, 259). Other element would receive the click: <label data-test-text-selectable-option__label="Yes" for="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140882,multipleChoice)-0" class="t-14">...</label>
+  (Session info: chrome=141.0.7390.109)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72fb1e8e5+80021]
+	GetHandleVerifier [0x0x7ff72fb1e940+80112]
+	(No symbol) [0x0x7ff72f8a060f]
+	(No symbol) [0x0x7ff72f900a39]
+	(No symbol) [0x0x7ff72f8fe3be]
+	(No symbol) [0x0x7ff72f8fb2e1]
+	(No symbol) [0x0x7ff72f8fa1a0]
+	(No symbol) [0x0x7ff72f8eb7c8]
+	(No symbol) [0x0x7ff72f92122a]
+	(No symbol) [0x0x7ff72f8eb056]
+	(No symbol) [0x0x7ff72f921440]
+	(No symbol) [0x0x7ff72f94968a]
+	(No symbol) [0x0x7ff72f921003]
+	(No symbol) [0x0x7ff72f8e95d1]
+	(No symbol) [0x0x7ff72f8ea3f3]
+	GetHandleVerifier [0x0x7ff72fdddc7d+2960429]
+	GetHandleVerifier [0x0x7ff72fdd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff72fdf8977+3070247]
+	GetHandleVerifier [0x0x7ff72fb383ce+185214]
+	GetHandleVerifier [0x0x7ff72fb3fe1f+216527]
+	GetHandleVerifier [0x0x7ff72fb27b24+117460]
+	GetHandleVerifier [0x0x7ff72fb27cdf+117903]
+	GetHandleVerifier [0x0x7ff72fb0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe2f11e8d7+23]
+	RtlUserThreadStart [0x0x7ffe3032c53c+44]
+
+2025-10-26 02:06:47 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-26 02:06:47 - LinkedInBot - DEBUG - Reviewing application
+2025-10-26 02:06:47 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-26 02:06:50 - LinkedInBot - DEBUG - Error with radio group: Message: element click intercepted: Element <input data-test-text-selectable-option__input="Yes" id="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140874,multipleChoice)-0" class="fb-form-element__checkbox" name="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140874,multipleChoice)" aria-required="true" type="radio" value="Yes" data-artdeco-is-focused="true"> is not clickable at point (298, 155). Other element would receive the click: <label data-test-text-selectable-option__label="Yes" for="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140874,multipleChoice)-0" class="t-14">...</label>
+  (Session info: chrome=141.0.7390.109)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72fb1e8e5+80021]
+	GetHandleVerifier [0x0x7ff72fb1e940+80112]
+	(No symbol) [0x0x7ff72f8a060f]
+	(No symbol) [0x0x7ff72f900a39]
+	(No symbol) [0x0x7ff72f8fe3be]
+	(No symbol) [0x0x7ff72f8fb2e1]
+	(No symbol) [0x0x7ff72f8fa1a0]
+	(No symbol) [0x0x7ff72f8eb7c8]
+	(No symbol) [0x0x7ff72f92122a]
+	(No symbol) [0x0x7ff72f8eb056]
+	(No symbol) [0x0x7ff72f921440]
+	(No symbol) [0x0x7ff72f94968a]
+	(No symbol) [0x0x7ff72f921003]
+	(No symbol) [0x0x7ff72f8e95d1]
+	(No symbol) [0x0x7ff72f8ea3f3]
+	GetHandleVerifier [0x0x7ff72fdddc7d+2960429]
+	GetHandleVerifier [0x0x7ff72fdd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff72fdf8977+3070247]
+	GetHandleVerifier [0x0x7ff72fb383ce+185214]
+	GetHandleVerifier [0x0x7ff72fb3fe1f+216527]
+	GetHandleVerifier [0x0x7ff72fb27b24+117460]
+	GetHandleVerifier [0x0x7ff72fb27cdf+117903]
+	GetHandleVerifier [0x0x7ff72fb0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe2f11e8d7+23]
+	RtlUserThreadStart [0x0x7ffe3032c53c+44]
+
+2025-10-26 02:06:51 - LinkedInBot - DEBUG - Error with radio group: Message: element click intercepted: Element <input data-test-text-selectable-option__input="Yes" id="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140882,multipleChoice)-0" class="fb-form-element__checkbox" name="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140882,multipleChoice)" aria-required="true" type="radio" value="Yes"> is not clickable at point (298, 283). Other element would receive the click: <label data-test-text-selectable-option__label="Yes" for="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4315672841,25008140882,multipleChoice)-0" class="t-14">...</label>
+  (Session info: chrome=141.0.7390.109)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72fb1e8e5+80021]
+	GetHandleVerifier [0x0x7ff72fb1e940+80112]
+	(No symbol) [0x0x7ff72f8a060f]
+	(No symbol) [0x0x7ff72f900a39]
+	(No symbol) [0x0x7ff72f8fe3be]
+	(No symbol) [0x0x7ff72f8fb2e1]
+	(No symbol) [0x0x7ff72f8fa1a0]
+	(No symbol) [0x0x7ff72f8eb7c8]
+	(No symbol) [0x0x7ff72f92122a]
+	(No symbol) [0x0x7ff72f8eb056]
+	(No symbol) [0x0x7ff72f921440]
+	(No symbol) [0x0x7ff72f94968a]
+	(No symbol) [0x0x7ff72f921003]
+	(No symbol) [0x0x7ff72f8e95d1]
+	(No symbol) [0x0x7ff72f8ea3f3]
+	GetHandleVerifier [0x0x7ff72fdddc7d+2960429]
+	GetHandleVerifier [0x0x7ff72fdd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff72fdf8977+3070247]
+	GetHandleVerifier [0x0x7ff72fb383ce+185214]
+	GetHandleVerifier [0x0x7ff72fb3fe1f+216527]
+	GetHandleVerifier [0x0x7ff72fb27b24+117460]
+	GetHandleVerifier [0x0x7ff72fb27cdf+117903]
+	GetHandleVerifier [0x0x7ff72fb0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe2f11e8d7+23]
+	RtlUserThreadStart [0x0x7ffe3032c53c+44]
+
+2025-10-26 02:06:52 - LinkedInBot - WARNING - Form has validation errors
+2025-10-26 02:06:52 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-26 02:06:52 - LinkedInBot - DEBUG - Reviewing application
+2025-10-26 02:06:52 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-26 02:06:54 - LinkedInBot - DEBUG - Error handling radio buttons: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72fb1e8e5+80021]
+	GetHandleVerifier [0x0x7ff72fb1e940+80112]
+	(No symbol) [0x0x7ff72f8a060f]
+	(No symbol) [0x0x7ff72f8a816a]
+	(No symbol) [0x0x7ff72f8ab5b2]
+	(No symbol) [0x0x7ff72f94aa1b]
+	(No symbol) [0x0x7ff72f92122a]
+	(No symbol) [0x0x7ff72f94968a]
+	(No symbol) [0x0x7ff72f921003]
+	(No symbol) [0x0x7ff72f8e95d1]
+	(No symbol) [0x0x7ff72f8ea3f3]
+	GetHandleVerifier [0x0x7ff72fdddc7d+2960429]
+	GetHandleVerifier [0x0x7ff72fdd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff72fdf8977+3070247]
+	GetHandleVerifier [0x0x7ff72fb383ce+185214]
+	GetHandleVerifier [0x0x7ff72fb3fe1f+216527]
+	GetHandleVerifier [0x0x7ff72fb27b24+117460]
+	GetHandleVerifier [0x0x7ff72fb27cdf+117903]
+	GetHandleVerifier [0x0x7ff72fb0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffe2f11e8d7+23]
+	RtlUserThreadStart [0x0x7ffe3032c53c+44]
+
+2025-10-26 02:06:54 - LinkedInBot - WARNING - Form has validation errors
+2025-10-26 02:06:55 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-26 02:06:55 - LinkedInBot - DEBUG - Reviewing application
+2025-10-26 02:06:55 - LinkedInBot - DEBUG - Processing form step 6...
+2025-10-26 02:06:58 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-26 02:06:58 - LinkedInBot - DEBUG - Reviewing application
+2025-10-26 02:06:58 - LinkedInBot - DEBUG - Processing form step 7...
+2025-10-26 02:07:01 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-26 02:07:01 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-26 02:07:07 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 2
+2025-10-26 02:07:10 - LinkedInBot - WARNING - Bot stopped by user

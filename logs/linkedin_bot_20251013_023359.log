@@ -1,0 +1,57 @@
+2025-10-13 02:33:59 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251013_023359.log
+2025-10-13 02:33:59 - LinkedInBot - INFO - ================================================================================
+2025-10-13 02:33:59 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-13 02:33:59 - LinkedInBot - INFO - Session started at: 2025-10-13 02:33:59
+2025-10-13 02:33:59 - LinkedInBot - INFO - ================================================================================
+2025-10-13 02:33:59 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-13 02:33:59 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-13 02:34:02 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-13 02:34:03 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-13 02:34:04 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-13 02:34:05 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-13 02:34:12 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-13 02:34:17 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-13 02:34:17 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-13 02:34:17 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-13 02:34:17 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&f_AL=true
+2025-10-13 02:35:12 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-13 02:35:16 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-13 02:35:17 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-13 02:35:20 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-13 02:35:21 - LinkedInBot - DEBUG - Filled 'mobile phone number' with '7277889991'
+2025-10-13 02:35:24 - LinkedInBot - DEBUG - Click intercepted, attempt 1/2
+2025-10-13 02:35:25 - LinkedInBot - DEBUG - Closed an overlay
+2025-10-13 02:35:26 - LinkedInBot - DEBUG - Element became stale, retrying...
+2025-10-13 02:35:27 - LinkedInBot - ERROR - Error clicking navigation button: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ff59e955+80021]
+	GetHandleVerifier [0x0x7ff6ff59e9b0+80112]
+	(No symbol) [0x0x7ff6ff32060f]
+	(No symbol) [0x0x7ff6ff32816a]
+	(No symbol) [0x0x7ff6ff32b5b2]
+	(No symbol) [0x0x7ff6ff3caa1b]
+	(No symbol) [0x0x7ff6ff3a122a]
+	(No symbol) [0x0x7ff6ff3c968a]
+	(No symbol) [0x0x7ff6ff3a1003]
+	(No symbol) [0x0x7ff6ff3695d1]
+	(No symbol) [0x0x7ff6ff36a3f3]
+	GetHandleVerifier [0x0x7ff6ff85dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6ff857fca+2936586]
+	GetHandleVerifier [0x0x7ff6ff878a07+3070279]
+	GetHandleVerifier [0x0x7ff6ff5b843e+185214]
+	GetHandleVerifier [0x0x7ff6ff5bfe8f+216527]
+	GetHandleVerifier [0x0x7ff6ff5a7b94+117460]
+	GetHandleVerifier [0x0x7ff6ff5a7d4f+117903]
+	GetHandleVerifier [0x0x7ff6ff58dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-13 02:35:27 - LinkedInBot - WARNING - Could not find next/submit button, discarding application
+2025-10-13 02:35:29 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-13 02:35:33 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-13 02:35:34 - LinkedInBot - DEBUG - Click intercepted, attempt 1/2
+2025-10-13 02:35:41 - LinkedInBot - WARNING - Bot stopped by user
+2025-10-13 02:35:57 - LinkedInBot - INFO - Browser closed successfully

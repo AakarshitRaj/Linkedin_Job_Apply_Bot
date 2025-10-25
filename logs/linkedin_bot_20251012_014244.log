@@ -1,0 +1,53 @@
+2025-10-12 01:42:44 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_014244.log
+2025-10-12 01:42:44 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:42:44 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 01:42:44 - LinkedInBot - INFO - Session started at: 2025-10-12 01:42:44
+2025-10-12 01:42:44 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:42:44 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 01:42:44 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 01:42:50 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 01:42:52 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 01:42:53 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 01:42:53 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 01:42:58 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 01:43:03 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 01:43:03 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 01:43:03 - LinkedInBot.JobSearch - INFO - Searching for: Data Scientist
+2025-10-12 01:43:03 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist&location=India&f_AL=true
+2025-10-12 01:43:21 - LinkedInBot.JobSearch - WARNING - Timeout while loading job listings
+2025-10-12 01:43:21 - LinkedInBot.JobSearch - INFO - Found 0 jobs for 'Data Scientist'
+2025-10-12 01:43:21 - LinkedInBot.JobSearch - INFO - Searching for: Machine Learning Engineer
+2025-10-12 01:43:21 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Machine%20Learning%20Engineer&location=India&f_AL=true
+2025-10-12 01:43:37 - LinkedInBot.JobSearch - WARNING - Timeout while loading job listings
+2025-10-12 01:43:37 - LinkedInBot.JobSearch - INFO - Found 0 jobs for 'Machine Learning Engineer'
+2025-10-12 01:43:37 - LinkedInBot.JobSearch - INFO - Searching for: Data Analyst
+2025-10-12 01:43:37 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst&location=India&f_AL=true
+2025-10-12 01:43:53 - LinkedInBot.JobSearch - WARNING - Timeout while loading job listings
+2025-10-12 01:43:53 - LinkedInBot.JobSearch - INFO - Found 0 jobs for 'Data Analyst'
+2025-10-12 01:43:53 - LinkedInBot.JobSearch - INFO - Total unique jobs found: 0
+2025-10-12 01:43:53 - LinkedInBot - INFO - Found 0 job listings to process
+2025-10-12 01:43:53 - LinkedInBot - ERROR - Fatal error occurred: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 40, in main
+    easy_apply_bot = EasyApplyBot(driver, config, logger)
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\modules\easy_apply.py", line 29, in __init__
+    self.applied_jobs = self._load_applied_jobs()
+                        ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\modules\easy_apply.py", line 35, in _load_applied_jobs
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-10-12 01:43:55 - LinkedInBot - INFO - Browser closed successfully

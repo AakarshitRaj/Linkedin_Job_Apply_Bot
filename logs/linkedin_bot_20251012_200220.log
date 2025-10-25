@@ -1,0 +1,79 @@
+2025-10-12 20:02:20 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_200220.log
+2025-10-12 20:02:20 - LinkedInBot - INFO - ================================================================================
+2025-10-12 20:02:20 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 20:02:20 - LinkedInBot - INFO - Session started at: 2025-10-12 20:02:20
+2025-10-12 20:02:20 - LinkedInBot - INFO - ================================================================================
+2025-10-12 20:02:20 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 20:02:20 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 20:02:23 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 20:02:25 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 20:02:26 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 20:02:26 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 20:02:28 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 20:02:33 - LinkedInBot.Auth - WARNING - ⚠ LinkedIn security checkpoint detected!
+2025-10-12 20:02:33 - LinkedInBot.Auth - WARNING - Please complete the verification manually in the browser.
+2025-10-12 20:03:02 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 20:03:02 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 20:03:02 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-12 20:03:02 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&f_AL=true
+2025-10-12 20:03:32 - LinkedInBot.JobSearch - ERROR - Error in real-time search: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 20:03:32 - LinkedInBot - INFO - Processed 0 jobs for 'Software Engineer', applied to 0
+2025-10-12 20:03:32 - LinkedInBot - INFO - Searching for: Python Developer
+2025-10-12 20:03:32 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Python%20Developer&f_AL=true
+2025-10-12 20:03:32 - LinkedInBot.JobSearch - ERROR - Error in real-time search: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 20:03:32 - LinkedInBot - INFO - Processed 0 jobs for 'Python Developer', applied to 0
+2025-10-12 20:03:32 - LinkedInBot - INFO - ================================================================================
+2025-10-12 20:03:32 - LinkedInBot - INFO - Automation completed!
+2025-10-12 20:03:32 - LinkedInBot - ERROR - Fatal error occurred: name 'job_listings' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 69, in main
+    logger.info(f"Total jobs processed: {len(job_listings)}")
+                                             ^^^^^^^^^^^^
+NameError: name 'job_listings' is not defined
+2025-10-12 20:03:34 - LinkedInBot - INFO - Browser closed successfully

@@ -1,0 +1,15 @@
+2025-10-12 01:40:03 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_014003.log
+2025-10-12 01:40:03 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:40:03 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 01:40:03 - LinkedInBot - INFO - Session started at: 2025-10-12 01:40:03
+2025-10-12 01:40:03 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:40:03 - LinkedInBot - ERROR - Fatal error occurred: Resume file not found at: path/to/your/resume.pdf
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 26, in main
+    config = config_manager.load_config()
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\modules\config_manager.py", line 26, in load_config
+    self._validate_config(config)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\modules\config_manager.py", line 77, in _validate_config
+    raise FileNotFoundError(f"Resume file not found at: {resume_path}")
+FileNotFoundError: Resume file not found at: path/to/your/resume.pdf

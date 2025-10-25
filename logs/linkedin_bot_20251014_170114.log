@@ -1,0 +1,78 @@
+2025-10-14 17:01:14 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251014_170114.log
+2025-10-14 17:01:14 - LinkedInBot - INFO - ================================================================================
+2025-10-14 17:01:14 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-14 17:01:14 - LinkedInBot - INFO - Session started at: 2025-10-14 17:01:14
+2025-10-14 17:01:14 - LinkedInBot - INFO - ================================================================================
+2025-10-14 17:01:15 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-14 17:01:15 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-14 17:01:16 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-14 17:01:18 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-14 17:01:19 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-14 17:01:20 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-14 17:01:26 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-14 17:01:32 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-14 17:01:32 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-14 17:01:32 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-14 17:01:32 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=Bengaluru&f_AL=true
+2025-10-14 17:02:38 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-14 17:02:42 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-14 17:02:43 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-14 17:02:47 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-14 17:02:47 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-14 17:02:50 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-14 17:02:54 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 17:02:54 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 17:02:54 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-14 17:02:55 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-14 17:02:59 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 17:02:59 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 17:02:59 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-14 17:03:02 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:02 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:02 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-14 17:03:05 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-14 17:03:05 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-14 17:03:09 - LinkedInBot - DEBUG - Closed success modal
+2025-10-14 17:03:09 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 1
+2025-10-14 17:03:10 - LinkedInBot.JobSearch - INFO - 
+[3/20] Processing job...
+2025-10-14 17:03:14 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-14 17:03:14 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-14 17:03:17 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-14 17:03:20 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 17:03:20 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 17:03:20 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-14 17:03:22 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-14 17:03:25 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 17:03:25 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 17:03:25 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-14 17:03:27 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with manual testing?' with '1'
+2025-10-14 17:03:29 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:29 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:29 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-14 17:03:31 - LinkedInBot - WARNING - Form has validation errors
+2025-10-14 17:03:32 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:32 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:32 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-14 17:03:35 - LinkedInBot - WARNING - Form has validation errors
+2025-10-14 17:03:35 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:35 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:35 - LinkedInBot - DEBUG - Processing form step 6...
+2025-10-14 17:03:38 - LinkedInBot - WARNING - Form has validation errors
+2025-10-14 17:03:39 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:39 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:39 - LinkedInBot - DEBUG - Processing form step 7...
+2025-10-14 17:03:41 - LinkedInBot - WARNING - Form has validation errors
+2025-10-14 17:03:42 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:42 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:42 - LinkedInBot - DEBUG - Processing form step 8...
+2025-10-14 17:03:44 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 17:03:44 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 17:03:44 - LinkedInBot - DEBUG - Processing form step 9...
+2025-10-14 17:03:47 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-14 17:03:47 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-14 17:03:50 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 2
+2025-10-14 17:03:53 - LinkedInBot - WARNING - Bot stopped by user
+2025-10-14 17:04:09 - LinkedInBot - INFO - Browser closed successfully

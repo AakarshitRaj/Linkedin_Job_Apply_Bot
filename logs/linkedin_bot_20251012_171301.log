@@ -1,0 +1,629 @@
+2025-10-12 17:13:01 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_171301.log
+2025-10-12 17:13:01 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:13:01 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 17:13:01 - LinkedInBot - INFO - Session started at: 2025-10-12 17:13:01
+2025-10-12 17:13:01 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:13:01 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 17:13:02 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 17:13:03 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 17:13:04 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 17:13:06 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 17:13:06 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 17:13:12 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 17:13:17 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 17:13:17 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 17:13:17 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-12 17:13:17 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&f_AL=true
+2025-10-12 17:14:17 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-12 17:14:21 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-12 17:14:21 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-12 17:14:25 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-12 17:14:27 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:27 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:27 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-12 17:14:28 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-12 17:14:30 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:30 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:30 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-12 17:14:32 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:32 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:32 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-12 17:14:34 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:34 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:34 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-12 17:14:36 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:36 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:36 - LinkedInBot - DEBUG - Processing form step 6...
+2025-10-12 17:14:38 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:38 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:38 - LinkedInBot - DEBUG - Processing form step 7...
+2025-10-12 17:14:40 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:40 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:40 - LinkedInBot - DEBUG - Processing form step 8...
+2025-10-12 17:14:42 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:42 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:42 - LinkedInBot - DEBUG - Processing form step 9...
+2025-10-12 17:14:44 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:44 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:44 - LinkedInBot - DEBUG - Processing form step 10...
+2025-10-12 17:14:46 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:46 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:46 - LinkedInBot - WARNING - Exceeded maximum form steps
+2025-10-12 17:14:48 - LinkedInBot - DEBUG - Discarded application
+2025-10-12 17:14:48 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-12 17:14:52 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-12 17:14:53 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-12 17:14:56 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-12 17:14:58 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:14:58 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:14:58 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-12 17:14:59 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-12 17:15:02 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:15:02 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:15:02 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-12 17:15:04 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-12 17:15:04 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-12 17:15:08 - LinkedInBot - DEBUG - Closed success modal
+2025-10-12 17:15:08 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 1
+2025-10-12 17:15:08 - LinkedInBot.JobSearch - INFO - 
+[3/20] Processing job...
+2025-10-12 17:15:12 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-12 17:15:13 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-12 17:15:16 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-12 17:15:18 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:15:18 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:15:18 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-12 17:15:19 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-12 17:15:22 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:15:22 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:15:22 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-12 17:15:24 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:15:24 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:15:24 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-12 17:15:26 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:15:26 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:15:26 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-12 17:15:28 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:15:28 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:15:28 - LinkedInBot - DEBUG - Processing form step 6...
+2025-10-12 17:15:30 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:15:30 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:15:30 - LinkedInBot - DEBUG - Processing form step 7...
+2025-10-12 17:15:31 - LinkedInBot - DEBUG - Error filling form fields: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff79161c145]
+	(No symbol) [0x0x7ff79164177a]
+	(No symbol) [0x0x7ff7916b8b06]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot - ERROR - Error clicking navigation button: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot - WARNING - Could not find next/submit button, discarding application
+2025-10-12 17:15:32 - LinkedInBot - DEBUG - Error discarding application: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot.JobSearch - ERROR - Error in real-time search: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff791630425]
+	(No symbol) [0x0x7ff79167864f]
+	(No symbol) [0x0x7ff7916b10f2]
+	(No symbol) [0x0x7ff7916ab89f]
+	(No symbol) [0x0x7ff7916aa94a]
+	(No symbol) [0x0x7ff7915fa765]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	(No symbol) [0x0x7ff7915f970e]
+	GetHandleVerifier [0x0x7ff791ca6af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:15:32 - LinkedInBot - INFO - Processed 3 jobs for 'Software Engineer', applied to 1
+2025-10-12 17:15:32 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:15:32 - LinkedInBot - INFO - Automation completed!
+2025-10-12 17:15:32 - LinkedInBot - ERROR - Fatal error occurred: name 'job_listings' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 69, in main
+    logger.info(f"Total jobs processed: {len(job_listings)}")
+                                             ^^^^^^^^^^^^
+NameError: name 'job_listings' is not defined
+2025-10-12 17:15:34 - LinkedInBot - INFO - Browser closed successfully

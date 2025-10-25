@@ -1,0 +1,737 @@
+2025-10-14 16:57:02 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251014_165702.log
+2025-10-14 16:57:02 - LinkedInBot - INFO - ================================================================================
+2025-10-14 16:57:02 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-14 16:57:02 - LinkedInBot - INFO - Session started at: 2025-10-14 16:57:02
+2025-10-14 16:57:02 - LinkedInBot - INFO - ================================================================================
+2025-10-14 16:57:02 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-14 16:57:02 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-14 16:57:03 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-14 16:57:05 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-14 16:57:06 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-14 16:57:07 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-14 16:57:13 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-14 16:57:18 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-14 16:57:18 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-14 16:57:18 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-14 16:57:18 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=Bengaluru&f_AL=true
+2025-10-14 16:58:15 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-14 16:58:16 - LinkedInBot - DEBUG - Click intercepted, attempt 1/2
+2025-10-14 16:58:20 - LinkedInBot - DEBUG - Closed an overlay
+2025-10-14 16:58:25 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-14 16:58:26 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-14 16:58:29 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-14 16:58:32 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:58:32 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:58:32 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-14 16:58:33 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-14 16:58:36 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:58:36 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:58:36 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-14 16:58:38 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with core java?' with '1'
+2025-10-14 16:58:38 - LinkedInBot - DEBUG - Filled 'how many years of hands on experience do you have in multithreading?' with '1'
+2025-10-14 16:58:38 - LinkedInBot - DEBUG - Filled 'how many years of hands on experience do you have in restful apis ?' with '1'
+2025-10-14 16:58:38 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with mysql?' with '1'
+2025-10-14 16:58:39 - LinkedInBot - DEBUG - Filled 'how many years of hands on experience do you have in spring mvc/springboot ?' with '1'
+2025-10-14 16:58:40 - LinkedInBot - DEBUG - Error with radio group: Message: element click intercepted: Element <input data-test-text-selectable-option__input="Yes" id="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4304867235,23458613844,multipleChoice)-0" class="fb-form-element__checkbox" name="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4304867235,23458613844,multipleChoice)" aria-required="true" type="radio" value="Yes"> is not clickable at point (298, 141). Other element would receive the click: <label data-test-text-selectable-option__label="Yes" for="urn:li:fsd_formElement:urn:li:jobs_applyformcommon_easyApplyFormElement:(4304867235,23458613844,multipleChoice)-0" class="t-14">...</label>
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752bf0a39]
+	(No symbol) [0x0x7ff752bee3be]
+	(No symbol) [0x0x7ff752beb2e1]
+	(No symbol) [0x0x7ff752bea1a0]
+	(No symbol) [0x0x7ff752bdb7c8]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752bdb056]
+	(No symbol) [0x0x7ff752c11440]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:58:41 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:58:41 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:58:41 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-14 16:58:43 - LinkedInBot - DEBUG - Error with radio group: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b26f]
+	(No symbol) [0x0x7ff752b9b32f]
+	(No symbol) [0x0x7ff752bf091b]
+	(No symbol) [0x0x7ff752bee3be]
+	(No symbol) [0x0x7ff752beb2e1]
+	(No symbol) [0x0x7ff752bea1a0]
+	(No symbol) [0x0x7ff752bdb7c8]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752bdb056]
+	(No symbol) [0x0x7ff752c11440]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:58:44 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:58:44 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:58:44 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-14 16:58:47 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 16:58:47 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 16:58:47 - LinkedInBot - DEBUG - Processing form step 6...
+2025-10-14 16:58:50 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-14 16:58:50 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-14 16:58:54 - LinkedInBot - DEBUG - Closed success modal
+2025-10-14 16:58:54 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 1
+2025-10-14 16:58:55 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-14 16:58:59 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-14 16:59:00 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-14 16:59:03 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-14 16:59:05 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:59:05 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:59:05 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-14 16:59:07 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-14 16:59:10 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:59:10 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:59:10 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-14 16:59:12 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with avaloq?' with '1'
+2025-10-14 16:59:12 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with release management?' with '1'
+2025-10-14 16:59:12 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with software development?' with '1'
+2025-10-14 16:59:14 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 16:59:14 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 16:59:14 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-14 16:59:17 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-14 16:59:17 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-14 16:59:21 - LinkedInBot - DEBUG - Closed success modal
+2025-10-14 16:59:21 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 2
+2025-10-14 16:59:21 - LinkedInBot.JobSearch - INFO - 
+[3/20] Processing job...
+2025-10-14 16:59:25 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-14 16:59:26 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-14 16:59:29 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-14 16:59:32 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:59:32 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:59:32 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-14 16:59:33 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-14 16:59:37 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-14 16:59:37 - LinkedInBot - DEBUG - Moved to next step
+2025-10-14 16:59:37 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-14 16:59:38 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with relational databases?' with '1'
+2025-10-14 16:59:39 - LinkedInBot - DEBUG - Filled 'how many years of work experience do you have with databases?' with '1'
+2025-10-14 16:59:40 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-14 16:59:40 - LinkedInBot - DEBUG - Reviewing application
+2025-10-14 16:59:40 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-14 16:59:43 - LinkedInBot - DEBUG - Clicked Submit button
+2025-10-14 16:59:43 - LinkedInBot - INFO - ✓ Application submitted successfully!
+2025-10-14 16:59:47 - LinkedInBot - DEBUG - Closed success modal
+2025-10-14 16:59:47 - LinkedInBot.JobSearch - INFO - ✓ Applied! Total: 3
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:48 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b9816a]
+	(No symbol) [0x0x7ff752b9b5b2]
+	(No symbol) [0x0x7ff752c3aa1b]
+	(No symbol) [0x0x7ff752c1122a]
+	(No symbol) [0x0x7ff752c3968a]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:50 - LinkedInBot.JobSearch - ERROR - Error in real-time search: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.77); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff752e0e955+80021]
+	GetHandleVerifier [0x0x7ff752e0e9b0+80112]
+	(No symbol) [0x0x7ff752b9060f]
+	(No symbol) [0x0x7ff752b7c145]
+	(No symbol) [0x0x7ff752ba177a]
+	(No symbol) [0x0x7ff752c18b06]
+	(No symbol) [0x0x7ff752c38fa2]
+	(No symbol) [0x0x7ff752c11003]
+	(No symbol) [0x0x7ff752bd95d1]
+	(No symbol) [0x0x7ff752bda3f3]
+	GetHandleVerifier [0x0x7ff7530cdd0d+2960461]
+	GetHandleVerifier [0x0x7ff7530c7fca+2936586]
+	GetHandleVerifier [0x0x7ff7530e8a07+3070279]
+	GetHandleVerifier [0x0x7ff752e2843e+185214]
+	GetHandleVerifier [0x0x7ff752e2fe8f+216527]
+	GetHandleVerifier [0x0x7ff752e17b94+117460]
+	GetHandleVerifier [0x0x7ff752e17d4f+117903]
+	GetHandleVerifier [0x0x7ff752dfdc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-14 16:59:50 - LinkedInBot - INFO - Processed 3 jobs for 'Software Engineer', applied to 3
+2025-10-14 16:59:50 - LinkedInBot - INFO - ================================================================================
+2025-10-14 16:59:50 - LinkedInBot - INFO - Automation completed!
+2025-10-14 16:59:50 - LinkedInBot - ERROR - Fatal error occurred: name 'job_listings' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 69, in main
+    logger.info(f"Total jobs processed: {len(job_listings)}")
+                                             ^^^^^^^^^^^^
+NameError: name 'job_listings' is not defined
+2025-10-14 16:59:52 - LinkedInBot - INFO - Browser closed successfully

@@ -1,0 +1,173 @@
+2025-10-12 01:53:07 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_015307.log
+2025-10-12 01:53:07 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:53:07 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 01:53:07 - LinkedInBot - INFO - Session started at: 2025-10-12 01:53:07
+2025-10-12 01:53:07 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:53:07 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 01:53:07 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 01:53:09 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 01:53:10 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 01:53:11 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 01:53:11 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 01:53:17 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 01:53:22 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 01:53:22 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 01:53:22 - LinkedInBot.JobSearch - INFO - Searching for: Software Engineer
+2025-10-12 01:53:22 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=India&f_AL=true
+2025-10-12 01:54:15 - LinkedInBot.JobSearch - DEBUG - Found job list with selector: .scaffold-layout__list
+2025-10-12 01:54:18 - LinkedInBot.JobSearch - DEBUG - Found 25 jobs with selector: li.scaffold-layout__list-item
+2025-10-12 01:54:18 - LinkedInBot.JobSearch - DEBUG - Collected 5 jobs so far...
+2025-10-12 01:54:20 - LinkedInBot.JobSearch - INFO - Successfully collected 5 job cards
+2025-10-12 01:54:20 - LinkedInBot.JobSearch - INFO - Found 5 jobs for 'Software Engineer'
+2025-10-12 01:54:20 - LinkedInBot.JobSearch - INFO - Searching for: Developer
+2025-10-12 01:54:20 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Developer&location=India&f_AL=true
+2025-10-12 01:54:28 - LinkedInBot.JobSearch - ERROR - Error collecting jobs: Message: target frame detached
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=141.0.7390.55)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a20425]
+	(No symbol) [0x0x7ff6e8a0d4aa]
+	(No symbol) [0x0x7ff6e8a0c34f]
+	(No symbol) [0x0x7ff6e8a3177a]
+	(No symbol) [0x0x7ff6e8aa8b06]
+	(No symbol) [0x0x7ff6e8ac8fa2]
+	(No symbol) [0x0x7ff6e8aa1003]
+	(No symbol) [0x0x7ff6e8a695d1]
+	(No symbol) [0x0x7ff6e8a6a3f3]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	GetHandleVerifier [0x0x7ff6e8ca7b94+117460]
+	GetHandleVerifier [0x0x7ff6e8ca7d4f+117903]
+	GetHandleVerifier [0x0x7ff6e8c8dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 01:54:28 - LinkedInBot.JobSearch - INFO - Found 0 jobs for 'Developer'
+2025-10-12 01:54:28 - LinkedInBot.JobSearch - INFO - Total unique jobs found: 5
+2025-10-12 01:54:28 - LinkedInBot - INFO - Found 5 job listings to process
+2025-10-12 01:54:28 - LinkedInBot - INFO - 
+[1/5] Processing job listing...
+2025-10-12 01:54:28 - LinkedInBot - ERROR - Error processing job: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a20425]
+	(No symbol) [0x0x7ff6e8a6864f]
+	(No symbol) [0x0x7ff6e8aa10f2]
+	(No symbol) [0x0x7ff6e8a9b89f]
+	(No symbol) [0x0x7ff6e8a9a94a]
+	(No symbol) [0x0x7ff6e89ea765]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	(No symbol) [0x0x7ff6e89e970e]
+	GetHandleVerifier [0x0x7ff6e9096af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 01:54:28 - LinkedInBot - WARNING - ✗ Could not apply to this job
+2025-10-12 01:54:28 - LinkedInBot - INFO - 
+[2/5] Processing job listing...
+2025-10-12 01:54:28 - LinkedInBot - ERROR - Error processing job: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a20425]
+	(No symbol) [0x0x7ff6e8a6864f]
+	(No symbol) [0x0x7ff6e8aa10f2]
+	(No symbol) [0x0x7ff6e8a9b89f]
+	(No symbol) [0x0x7ff6e8a9a94a]
+	(No symbol) [0x0x7ff6e89ea765]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	(No symbol) [0x0x7ff6e89e970e]
+	GetHandleVerifier [0x0x7ff6e9096af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 01:54:28 - LinkedInBot - WARNING - ✗ Could not apply to this job
+2025-10-12 01:54:28 - LinkedInBot - INFO - 
+[3/5] Processing job listing...
+2025-10-12 01:54:28 - LinkedInBot - ERROR - Error processing job: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a20425]
+	(No symbol) [0x0x7ff6e8a6864f]
+	(No symbol) [0x0x7ff6e8aa10f2]
+	(No symbol) [0x0x7ff6e8a9b89f]
+	(No symbol) [0x0x7ff6e8a9a94a]
+	(No symbol) [0x0x7ff6e89ea765]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	(No symbol) [0x0x7ff6e89e970e]
+	GetHandleVerifier [0x0x7ff6e9096af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 01:54:28 - LinkedInBot - WARNING - ✗ Could not apply to this job
+2025-10-12 01:54:28 - LinkedInBot - INFO - 
+[4/5] Processing job listing...
+2025-10-12 01:54:28 - LinkedInBot - ERROR - Error processing job: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a20425]
+	(No symbol) [0x0x7ff6e8a6864f]
+	(No symbol) [0x0x7ff6e8aa10f2]
+	(No symbol) [0x0x7ff6e8a9b89f]
+	(No symbol) [0x0x7ff6e8a9a94a]
+	(No symbol) [0x0x7ff6e89ea765]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	(No symbol) [0x0x7ff6e89e970e]
+	GetHandleVerifier [0x0x7ff6e9096af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 01:54:28 - LinkedInBot - WARNING - ✗ Could not apply to this job
+2025-10-12 01:54:28 - LinkedInBot - INFO - 
+[5/5] Processing job listing...
+2025-10-12 01:54:28 - LinkedInBot - ERROR - Error processing job: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a20425]
+	(No symbol) [0x0x7ff6e8a6864f]
+	(No symbol) [0x0x7ff6e8aa10f2]
+	(No symbol) [0x0x7ff6e8a9b89f]
+	(No symbol) [0x0x7ff6e8a9a94a]
+	(No symbol) [0x0x7ff6e89ea765]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	(No symbol) [0x0x7ff6e89e970e]
+	GetHandleVerifier [0x0x7ff6e9096af8+4241976]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 01:54:28 - LinkedInBot - WARNING - ✗ Could not apply to this job
+2025-10-12 01:54:28 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:54:28 - LinkedInBot - INFO - Automation completed!
+2025-10-12 01:54:28 - LinkedInBot - INFO - Total jobs processed: 5
+2025-10-12 01:54:28 - LinkedInBot - INFO - Successfully applied: 0
+2025-10-12 01:54:28 - LinkedInBot - INFO - Session ended at: 2025-10-12 01:54:28
+2025-10-12 01:54:28 - LinkedInBot - INFO - ================================================================================

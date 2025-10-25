@@ -1,0 +1,51 @@
+2025-10-12 02:06:02 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_020602.log
+2025-10-12 02:06:02 - LinkedInBot - INFO - ================================================================================
+2025-10-12 02:06:02 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 02:06:02 - LinkedInBot - INFO - Session started at: 2025-10-12 02:06:02
+2025-10-12 02:06:02 - LinkedInBot - INFO - ================================================================================
+2025-10-12 02:06:02 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 02:06:02 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 02:06:03 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 02:06:05 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 02:06:06 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 02:06:06 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 02:06:12 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 02:06:17 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 02:06:17 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 02:06:17 - LinkedInBot.JobSearch - INFO - Searching for: Software Engineer
+2025-10-12 02:06:17 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=India&f_AL=true
+2025-10-12 02:06:54 - LinkedInBot.JobSearch - ERROR - Error collecting jobs: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.55)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e8c9e955+80021]
+	GetHandleVerifier [0x0x7ff6e8c9e9b0+80112]
+	(No symbol) [0x0x7ff6e8a2060f]
+	(No symbol) [0x0x7ff6e8a0c145]
+	(No symbol) [0x0x7ff6e8a3177a]
+	(No symbol) [0x0x7ff6e8aa8b06]
+	(No symbol) [0x0x7ff6e8ac8fa2]
+	(No symbol) [0x0x7ff6e8aa1003]
+	(No symbol) [0x0x7ff6e8a695d1]
+	(No symbol) [0x0x7ff6e8a6a3f3]
+	GetHandleVerifier [0x0x7ff6e8f5dd0d+2960461]
+	GetHandleVerifier [0x0x7ff6e8f57fca+2936586]
+	GetHandleVerifier [0x0x7ff6e8f78a07+3070279]
+	GetHandleVerifier [0x0x7ff6e8cb843e+185214]
+	GetHandleVerifier [0x0x7ff6e8cbfe8f+216527]
+	GetHandleVerifier [0x0x7ff6e8ca7b94+117460]
+	GetHandleVerifier [0x0x7ff6e8ca7d4f+117903]
+	GetHandleVerifier [0x0x7ff6e8c8dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 02:06:54 - LinkedInBot.JobSearch - INFO - Found 0 jobs for 'Software Engineer'
+2025-10-12 02:06:54 - LinkedInBot.JobSearch - INFO - Deduplication: 0 -> 0 unique jobs
+2025-10-12 02:06:54 - LinkedInBot.JobSearch - INFO - Total unique jobs found: 0
+2025-10-12 02:06:54 - LinkedInBot - INFO - Found 0 job listings to process
+2025-10-12 02:06:54 - LinkedInBot - INFO - ================================================================================
+2025-10-12 02:06:54 - LinkedInBot - INFO - Automation completed!
+2025-10-12 02:06:54 - LinkedInBot - INFO - Total jobs processed: 0
+2025-10-12 02:06:54 - LinkedInBot - INFO - Successfully applied: 0
+2025-10-12 02:06:54 - LinkedInBot - INFO - Session ended at: 2025-10-12 02:06:54
+2025-10-12 02:06:54 - LinkedInBot - INFO - ================================================================================

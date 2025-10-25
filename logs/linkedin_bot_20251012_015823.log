@@ -1,0 +1,29 @@
+2025-10-12 01:58:23 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_015823.log
+2025-10-12 01:58:23 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:58:23 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 01:58:23 - LinkedInBot - INFO - Session started at: 2025-10-12 01:58:23
+2025-10-12 01:58:23 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:58:23 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 01:58:23 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 01:58:24 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 01:58:26 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 01:58:27 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 01:58:27 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 01:58:28 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 01:58:34 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 01:58:34 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 01:58:34 - LinkedInBot.JobSearch - INFO - Searching for: Software Engineer
+2025-10-12 01:58:34 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&location=India&f_AL=true
+2025-10-12 01:59:27 - LinkedInBot.JobSearch - DEBUG - Found job list with selector: .scaffold-layout__list
+2025-10-12 01:59:30 - LinkedInBot.JobSearch - DEBUG - Found 25 jobs with selector: li.scaffold-layout__list-item
+2025-10-12 01:59:30 - LinkedInBot.JobSearch - DEBUG - Collected 5 jobs so far...
+2025-10-12 01:59:32 - LinkedInBot.JobSearch - INFO - Successfully collected 5 job cards
+2025-10-12 01:59:32 - LinkedInBot.JobSearch - INFO - Found 5 jobs for 'Software Engineer'
+2025-10-12 01:59:32 - LinkedInBot.JobSearch - INFO - Total unique jobs found: 0
+2025-10-12 01:59:32 - LinkedInBot - INFO - Found 0 job listings to process
+2025-10-12 01:59:32 - LinkedInBot - INFO - ================================================================================
+2025-10-12 01:59:32 - LinkedInBot - INFO - Automation completed!
+2025-10-12 01:59:32 - LinkedInBot - INFO - Total jobs processed: 0
+2025-10-12 01:59:32 - LinkedInBot - INFO - Successfully applied: 0
+2025-10-12 01:59:32 - LinkedInBot - INFO - Session ended at: 2025-10-12 01:59:32
+2025-10-12 01:59:32 - LinkedInBot - INFO - ================================================================================

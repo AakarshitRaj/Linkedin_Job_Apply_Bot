@@ -1,0 +1,691 @@
+2025-10-12 17:29:44 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_172944.log
+2025-10-12 17:29:44 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:29:44 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 17:29:44 - LinkedInBot - INFO - Session started at: 2025-10-12 17:29:44
+2025-10-12 17:29:44 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:29:44 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 17:29:44 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 17:29:45 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 17:29:46 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 17:29:48 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 17:29:48 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 17:29:54 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 17:29:59 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 17:29:59 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 17:29:59 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-12 17:29:59 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&f_AL=true
+2025-10-12 17:30:55 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-12 17:30:59 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:31:00 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-12 17:31:03 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:31:04 - LinkedInBot.JobSearch - INFO - 
+[3/20] Processing job...
+2025-10-12 17:31:08 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:31:08 - LinkedInBot.JobSearch - INFO - 
+[4/20] Processing job...
+2025-10-12 17:31:12 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-12 17:31:13 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-12 17:31:16 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-12 17:31:18 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:31:18 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:31:18 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-12 17:31:19 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-12 17:31:22 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:31:22 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:31:22 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-12 17:31:24 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:24 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:24 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-12 17:31:26 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:26 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:26 - LinkedInBot - DEBUG - Processing form step 5...
+2025-10-12 17:31:28 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:28 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:28 - LinkedInBot - DEBUG - Processing form step 6...
+2025-10-12 17:31:30 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:30 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:30 - LinkedInBot - DEBUG - Processing form step 7...
+2025-10-12 17:31:32 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:32 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:32 - LinkedInBot - DEBUG - Processing form step 8...
+2025-10-12 17:31:34 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:34 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:34 - LinkedInBot - DEBUG - Processing form step 9...
+2025-10-12 17:31:36 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:36 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:36 - LinkedInBot - DEBUG - Processing form step 10...
+2025-10-12 17:31:38 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:38 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:38 - LinkedInBot - WARNING - Exceeded maximum form steps
+2025-10-12 17:31:39 - LinkedInBot - DEBUG - Discarded application
+2025-10-12 17:31:40 - LinkedInBot.JobSearch - INFO - 
+[5/20] Processing job...
+2025-10-12 17:31:44 - LinkedInBot - INFO - Job: Unknown at Unknown
+2025-10-12 17:31:45 - LinkedInBot - INFO - Clicked Easy Apply button
+2025-10-12 17:31:48 - LinkedInBot - DEBUG - Processing form step 1...
+2025-10-12 17:31:50 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:31:50 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:31:50 - LinkedInBot - DEBUG - Processing form step 2...
+2025-10-12 17:31:51 - LinkedInBot - DEBUG - Uploaded resume
+2025-10-12 17:31:54 - LinkedInBot - DEBUG - Clicked Continue button
+2025-10-12 17:31:54 - LinkedInBot - DEBUG - Moved to next step
+2025-10-12 17:31:54 - LinkedInBot - DEBUG - Processing form step 3...
+2025-10-12 17:31:56 - LinkedInBot - DEBUG - Clicked Review button
+2025-10-12 17:31:56 - LinkedInBot - DEBUG - Reviewing application
+2025-10-12 17:31:56 - LinkedInBot - DEBUG - Processing form step 4...
+2025-10-12 17:31:57 - LinkedInBot - DEBUG - Error filling form fields: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot - ERROR - Error clicking navigation button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot - WARNING - Could not find next/submit button, discarding application
+2025-10-12 17:31:57 - LinkedInBot - DEBUG - Error discarding application: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Error processing job card: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - ERROR - Error in real-time search: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot - INFO - Processed 5 jobs for 'Software Engineer', applied to 0
+2025-10-12 17:31:57 - LinkedInBot - INFO - Searching for: Python Developer
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Python%20Developer&f_AL=true
+2025-10-12 17:31:57 - LinkedInBot.JobSearch - ERROR - Error in real-time search: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7918ae955+80021]
+	GetHandleVerifier [0x0x7ff7918ae9b0+80112]
+	(No symbol) [0x0x7ff79163060f]
+	(No symbol) [0x0x7ff7916082f1]
+	(No symbol) [0x0x7ff7916b88be]
+	(No symbol) [0x0x7ff7916d8fa2]
+	(No symbol) [0x0x7ff7916b1003]
+	(No symbol) [0x0x7ff7916795d1]
+	(No symbol) [0x0x7ff79167a3f3]
+	GetHandleVerifier [0x0x7ff791b6dd0d+2960461]
+	GetHandleVerifier [0x0x7ff791b67fca+2936586]
+	GetHandleVerifier [0x0x7ff791b88a07+3070279]
+	GetHandleVerifier [0x0x7ff7918c843e+185214]
+	GetHandleVerifier [0x0x7ff7918cfe8f+216527]
+	GetHandleVerifier [0x0x7ff7918b7b94+117460]
+	GetHandleVerifier [0x0x7ff7918b7d4f+117903]
+	GetHandleVerifier [0x0x7ff79189dc28+11112]
+	BaseThreadInitThunk [0x0x7ffe5e07e8d7+23]
+	RtlUserThreadStart [0x0x7ffe5ed4c53c+44]
+
+2025-10-12 17:31:57 - LinkedInBot - INFO - Processed 0 jobs for 'Python Developer', applied to 0
+2025-10-12 17:31:57 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:31:57 - LinkedInBot - INFO - Automation completed!
+2025-10-12 17:31:57 - LinkedInBot - ERROR - Fatal error occurred: name 'job_listings' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 69, in main
+    logger.info(f"Total jobs processed: {len(job_listings)}")
+                                             ^^^^^^^^^^^^
+NameError: name 'job_listings' is not defined
+2025-10-12 17:32:00 - LinkedInBot - INFO - Browser closed successfully

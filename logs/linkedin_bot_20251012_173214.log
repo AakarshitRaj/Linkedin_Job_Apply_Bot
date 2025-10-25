@@ -1,0 +1,88 @@
+2025-10-12 17:32:14 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_173214.log
+2025-10-12 17:32:14 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:32:14 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 17:32:14 - LinkedInBot - INFO - Session started at: 2025-10-12 17:32:14
+2025-10-12 17:32:14 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:32:14 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 17:32:14 - LinkedInBot.Auth - INFO - Initializing browser...
+2025-10-12 17:32:15 - LinkedInBot.Auth - INFO - Navigating to LinkedIn login page...
+2025-10-12 17:32:17 - LinkedInBot.Auth - DEBUG - Entering email...
+2025-10-12 17:32:18 - LinkedInBot.Auth - DEBUG - Entering password...
+2025-10-12 17:32:18 - LinkedInBot.Auth - DEBUG - Clicking sign in button...
+2025-10-12 17:32:20 - LinkedInBot.Auth - INFO - Waiting for login to complete...
+2025-10-12 17:32:25 - LinkedInBot.Auth - WARNING - ⚠ LinkedIn security checkpoint detected!
+2025-10-12 17:32:25 - LinkedInBot.Auth - WARNING - Please complete the verification manually in the browser.
+2025-10-12 17:33:27 - LinkedInBot.Auth - INFO - ✓ Login successful!
+2025-10-12 17:33:27 - LinkedInBot - INFO - LinkedIn login successful
+2025-10-12 17:33:27 - LinkedInBot - INFO - Searching for: Software Engineer
+2025-10-12 17:33:27 - LinkedInBot.JobSearch - DEBUG - Navigating to: https://www.linkedin.com/jobs/search/?keywords=Software%20Engineer&f_AL=true
+2025-10-12 17:34:25 - LinkedInBot.JobSearch - INFO - 
+[1/20] Processing job...
+2025-10-12 17:34:26 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:27 - LinkedInBot.JobSearch - INFO - 
+[2/20] Processing job...
+2025-10-12 17:34:28 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:28 - LinkedInBot.JobSearch - INFO - 
+[3/20] Processing job...
+2025-10-12 17:34:30 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:30 - LinkedInBot.JobSearch - INFO - 
+[4/20] Processing job...
+2025-10-12 17:34:31 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:32 - LinkedInBot.JobSearch - INFO - 
+[5/20] Processing job...
+2025-10-12 17:34:33 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:34 - LinkedInBot.JobSearch - INFO - 
+[6/20] Processing job...
+2025-10-12 17:34:35 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:35 - LinkedInBot.JobSearch - INFO - 
+[7/20] Processing job...
+2025-10-12 17:34:37 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:37 - LinkedInBot.JobSearch - INFO - 
+[8/20] Processing job...
+2025-10-12 17:34:38 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:39 - LinkedInBot.JobSearch - INFO - 
+[9/20] Processing job...
+2025-10-12 17:34:40 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:41 - LinkedInBot.JobSearch - INFO - 
+[10/20] Processing job...
+2025-10-12 17:34:42 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:42 - LinkedInBot.JobSearch - INFO - 
+[11/20] Processing job...
+2025-10-12 17:34:44 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:44 - LinkedInBot.JobSearch - INFO - 
+[12/20] Processing job...
+2025-10-12 17:34:45 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:46 - LinkedInBot.JobSearch - INFO - 
+[13/20] Processing job...
+2025-10-12 17:34:47 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:48 - LinkedInBot.JobSearch - INFO - 
+[14/20] Processing job...
+2025-10-12 17:34:49 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:49 - LinkedInBot.JobSearch - INFO - 
+[15/20] Processing job...
+2025-10-12 17:34:51 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:51 - LinkedInBot.JobSearch - INFO - 
+[16/20] Processing job...
+2025-10-12 17:34:52 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:53 - LinkedInBot.JobSearch - INFO - 
+[17/20] Processing job...
+2025-10-12 17:34:54 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:55 - LinkedInBot.JobSearch - INFO - 
+[18/20] Processing job...
+2025-10-12 17:34:56 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:56 - LinkedInBot.JobSearch - INFO - 
+[19/20] Processing job...
+2025-10-12 17:34:58 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:34:58 - LinkedInBot.JobSearch - INFO - 
+[20/20] Processing job...
+2025-10-12 17:34:59 - LinkedInBot - INFO - Already applied to: Unknown
+2025-10-12 17:35:00 - LinkedInBot - INFO - Processed 20 jobs for 'Software Engineer', applied to 0
+2025-10-12 17:35:00 - LinkedInBot - INFO - ================================================================================
+2025-10-12 17:35:00 - LinkedInBot - INFO - Automation completed!
+2025-10-12 17:35:00 - LinkedInBot - ERROR - Fatal error occurred: name 'job_listings' is not defined
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 69, in main
+    logger.info(f"Total jobs processed: {len(job_listings)}")
+                                             ^^^^^^^^^^^^
+NameError: name 'job_listings' is not defined
+2025-10-12 17:35:02 - LinkedInBot - INFO - Browser closed successfully

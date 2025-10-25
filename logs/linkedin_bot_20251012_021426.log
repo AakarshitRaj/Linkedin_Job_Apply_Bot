@@ -1,0 +1,11 @@
+2025-10-12 02:14:26 - LinkedInBot - INFO - Log file created: logs\linkedin_bot_20251012_021426.log
+2025-10-12 02:14:26 - LinkedInBot - INFO - ================================================================================
+2025-10-12 02:14:26 - LinkedInBot - INFO - LinkedIn Job Application Bot Started
+2025-10-12 02:14:26 - LinkedInBot - INFO - Session started at: 2025-10-12 02:14:26
+2025-10-12 02:14:26 - LinkedInBot - INFO - ================================================================================
+2025-10-12 02:14:26 - LinkedInBot - INFO - Configuration loaded successfully
+2025-10-12 02:14:26 - LinkedInBot - ERROR - Fatal error occurred: LinkedInAuth.login() got an unexpected keyword argument 'headless'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\Job_Apply\linkedin_job_bot\main.py", line 33, in main
+    driver = auth.login(headless=True)  # Enable headless mode for faster automation
+TypeError: LinkedInAuth.login() got an unexpected keyword argument 'headless'

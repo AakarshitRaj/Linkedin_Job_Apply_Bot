@@ -1,0 +1,69 @@
+{
+    "linkedin_credentials": {
+        "email": "learnwithaakarshit@gmail.com",
+        "password": "Nitish@001"
+    },
+    "personal_info": {
+        "first_name": "Aakarshit",
+        "last_name": "Raj",
+        "email": "rajaakarshit7@gmail.com",
+        "phone": "7277889991",
+        "country_code": "+91",
+        "resume_path": "C:\\Users\\USER\\Desktop\\Resume (1)\\28sep\\Aakarshit Raj Resume.pdf",
+        "contact_info": {
+            "address": "Bengaluru, Karnataka, India",
+            "linkedin": "https://www.linkedin.com/in/aakarshit-raj-0022a6237/",
+            "github": "https://github.com/aakarshitraj",
+            "portfolio": "https://aakarshitraj.github.io/",
+            "email": "rajaakarshit7@gmail.com",
+            "phone": "+91 7277889991"
+        }
+    },
+    "job_search": {
+        "keywords": ["Software Engineer"],
+        "location": "Bengaluru",
+        "date_posted": "",
+        "experience_level": [],
+        "max_jobs": 20
+    },
+    "automation_settings": {
+        "wait_time": 1,
+        "max_retries": 2,
+        "scroll_pause": 1.5,
+        "headless": false
+    },
+    "question_answers": {
+        "personal_info": {
+            "first_name": "Aakarshit",
+            "last_name": "Raj",
+            "email": "rajaakarshit7@gmail.com",
+            "phone": "7277889991",
+            "country_code": "+91"
+        },
+        "years_of_experience": {
+            "default": "1",
+            "python": "1",
+            "java": "1",
+            "javascript": "1",
+            "react": "1",
+            "sql": "1",
+            "aws": "1",
+            "machine learning": "1",
+            "data science": "1"
+        },
+        "sponsorship_required": "No",
+        "require_visa_sponsorship": "No",
+        "willing_to_relocate": "Yes",
+        "notice_period": "Immediate",
+        "expected_salary": "1500000",
+        "current_salary": "800000",
+        "authorized_to_work": "Yes",
+        "comfortable_working_remotely": "Yes",
+        "websites": {
+            "linkedin": "https://www.linkedin.com/in/aakarshit-raj-0022a6237/",
+            "github": "https://github.com/aakarshitraj",
+            "portfolio": "https://aakarshitraj.github.io/"
+        }
+    },
+    "applied_jobs_log": "applied_jobs.json"
+}
